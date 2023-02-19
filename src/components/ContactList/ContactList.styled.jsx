@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Button = styled.button`
+export const ListBtn = styled.button`
   width: 94px;
   height: 28px;
   border-radius: 5px;
@@ -13,15 +13,13 @@ export const Button = styled.button`
   }
 `;
 
-export const Item = styled.li`
+export const ListWrapper = styled.ul`
+padding: 0;
+`;
+
+export const ListItem = styled.li`
   display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 17px;
 `;
-
-export const Wrapper = styled.ul`
-  padding: 0;
-`;
-
-

@@ -1,15 +1,15 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Form = styled.form`
+export const NameForm = styled.form`
   display: inline-flex;
   flex-direction: column;
   border: 1px solid;
   padding: 16px;
   border-radius: 5px;
   gap: 8px;
-  `;
+`;
 
-export const Label = styled.label`
+export const FormLabel = styled.label`
   display: inline-flex;
   flex-direction: column;
   font-weight: 500;
@@ -21,7 +21,7 @@ export const FormInput = styled.input`
   height: 18px;
 `;
 
-export const Button = styled.button`
+export const SubmitBtn = styled.button`
   width: 130px;
   height: 28px;
   border-radius: 5px;
@@ -33,7 +33,9 @@ export const Button = styled.button`
   }
 `;
 
-// PhoneBookWrapper
+
+
+
 export const PhoneBookWrapper = styled.div`
-  padding: 50px;
+padding-left: 24px;
 `;
